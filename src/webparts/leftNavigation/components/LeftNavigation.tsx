@@ -25,7 +25,7 @@ const LeftNavigation: FC<ILeftNavigationProps> = (props) => {
 
 	const getActiveMenuItems = async (): Promise<any[]> => {
 		const filQuery = `IsActive eq 1 and Position eq 'Left'`;
-		return await sp.web.lists.getByTitle('Menus').items
+		return await sp.web.lists.getByTitle('iap-leftnav-menu').items
 			.select('ID', 'Title', 'PageUrl', 'IconName', 'Sequence', 'IsParent', 'ParentMenu/Id', 'ParentMenu/Title', 'IsActive')
 			.expand('ParentMenu')
 			.filter(filQuery)();
