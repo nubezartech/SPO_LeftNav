@@ -35,6 +35,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/iap-left-nav.sppkg"
+    "zippedPackage": "iap-left-nav-solution/iap-left-nav.sppkg"
   }
 }
