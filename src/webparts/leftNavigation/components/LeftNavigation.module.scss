@@ -1,0 +1,17 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.leftNavigation {
+    ul {
+        li {
+            div {
+                button[class*="ms-Nav-chevronButton"] {
+                    right: 5px !important;
+                    left: unset !important;
+                }
+                button[class*="ms-Nav-link"] {
+                    padding-left: 4px !important;
+                }
+            }
+        }
+    }
+}
