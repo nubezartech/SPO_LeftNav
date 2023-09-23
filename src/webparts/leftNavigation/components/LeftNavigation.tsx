@@ -102,11 +102,11 @@ const LeftNavigation: FC<ILeftNavigationProps> = (props) => {
 						)}
 					</div>
 				</Stack.Item>
-				<Stack.Item style={{width: '75%'}}>
+				{/* <Stack.Item style={{width: '75%'}}>
 					<div>
 						Page Content goes here.
 					</div>
-				</Stack.Item>
+				</Stack.Item> */}
 			</Stack>
 		</div>
 	);

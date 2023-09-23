@@ -8,7 +8,7 @@
       "@microsoft/teams-js": "2.4.1"
     },
     "version": "1.16.1",
-    "libraryName": "left-nav",
+    "libraryName": "iap-left-nav",
     "libraryId": "2522d3fd-7a3a-4619-9171-b526b728002b",
     "environment": "spo",
     "packageManager": "npm",
