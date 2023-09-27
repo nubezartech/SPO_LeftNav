@@ -18,7 +18,7 @@ export interface ILeftNavigationWebPartProps {
 
 export default class LeftNavigationWebPart extends BaseClientSideWebPart<ILeftNavigationWebPartProps> {
 
-	private _isDarkTheme: boolean = false;
+	private _isDarkTheme: boolean = true;
 	private _environmentMessage: string = '';
 	private _sp: SPFI;
 
